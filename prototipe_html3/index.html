@@ -1,9 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Formulario</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
 
+    <h2>Registro de estudiante</h2>
+
+    <form>
+
+        <label>Nombre completo:</label><br>
+        <input type="text" name="nombre"><br><br>
+
+        <label>Correo electrónico:</label><br>
+        <input type="email" name="correo"><br><br>
+
+        <label>Contraseña:</label><br>
+        <input type="password" name="contrasena"><br><br>
+
+        <label>Fecha de nacimiento:</label><br>
+        <input type="date" name="fecha"><br><br>
+
+        <label>Género:</label><br>
+        <input type="radio" name="genero" value="masculino"> Masculino
+        <input type="radio" name="genero" value="femenino"> Femenino
+        <br><br>
+
+        <label>Carrera:</label><br>
+        <select name="carrera">
+            <option>Ingeniería de Sistemas</option>
+            <option>Diseño gráfico</option>
+            <option>Administración de Empresas</option>
+        </select>
+        <br><br>
+
+        <input type="checkbox" name="terminos">
+        Acepto los términos y condiciones
+        <br><br>
+
+        <input type="submit" value="Enviar formulario">
+
+    </form>
+
 </body>
+
 </html>
