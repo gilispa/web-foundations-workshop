@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Tablas y listas</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
 
+<body>
+    <h2>Lenguajes que quiero aprender</h2>
+    <ol>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>PHP</li>
+    </ol>
+
+    <h2>Mis hobbies</h2>
+    <ul>
+        <li>Leer</li>
+        <li>Escuchar música</li>
+        <li>Hacer deporte</li>
+    </ul>
+
+    <h2>Estudiantes</h2>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th colspan="5">Listado de estudiantes</th>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Carrera</th>
+                <th>Semestre</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ana</td>
+                <td>López</td>
+                <td rowspan="2">Ingeniería de Sistemas</td>
+                <td>5</td>
+                <td><button>Editar registro 1</button></td>
+            </tr>
+
+            <tr>
+                <td>Carlos</td>
+                <td>Pérez</td>
+                <td>3</td>
+                <td><button>Editar registro 2</button></td>
+            </tr>
+
+            <tr>
+                <td>María</td>
+                <td>Gómez</td>
+                <td>Informática</td>
+                <td>7</td>
+                <td><button>Editar registro 3</button></td>
+            </tr>
+        </tbody>
+
+    </table>
 
 </body>
+
 </html>
